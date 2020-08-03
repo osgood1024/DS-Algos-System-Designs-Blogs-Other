@@ -106,7 +106,7 @@ class SinglyLinkedList{
     }
 
 
-    // Insert
+    // Insert index and value to a linkedlist
 
     insert(index,val){
         if(index<0 ||index>this.length) return false ;
@@ -120,10 +120,55 @@ class SinglyLinkedList{
         newNode.next=temp;
         this.length++
         return true;
-
         
     }
 
+
+    // Remove index of a linkedlist
+    remove(index){
+        if(index<0 || index>this.length)return undefined;
+        if(index===0) return this.shift();
+        if(index===this.length-1)return this.pop();
+        let previousNode= this.get(index-1);
+        let removed=previousNode.next;
+        previousNode.next=removed.next;
+        this.length--;
+        return removed
+    }
+
+    //Reverse Linkedlist
+
+    reverse(){
+        let node=this.head
+        this.head=this.tail
+        this.tail=node
+        let next;
+        let prev=null;
+
+        for(let i =0;i<this.length;i++){
+            
+            next=node.next
+            // this one line is critical one (coudl be confusing)
+            node.next=prev
+            //Here you just shifting prev and node to the next one
+            prev=node;
+            node=next;
+        }
+
+        return this;
+
+    }
+
+
+    print(){
+        let arr=[]
+        let curr=this.head
+        while(curr){
+            arr.push(curr.val)
+            curr=curr.next
+        }
+        console.log(arr)
+    }
 
 
 
@@ -131,9 +176,15 @@ class SinglyLinkedList{
 
 
 let list = new SinglyLinkedList()
-list.push("Hello")
-list.push("World")
-list.push("MR.OG")
+list.push(1)
+list.push(10)
+list.push(20)
+list.push(24)
+list.push(50)
+
+console.log(list.print())
+list.reverse()
+console.log(list.print())
 // list.pop()
 // list.pop()
 // list.pop()
@@ -145,10 +196,12 @@ list.push("MR.OG")
 // list.shift()
 // list.unshift("welcome!!")
 // list.set(2,"Money")
-console.log(list.insert(3,"supgurl"))
+// list.insert(3,"supgurl")
+// list.remove(2)
+// list.get()
 
 
-console.log(list)
+// console.log(list.get(2))
 
 // console.log(list.head)
 // console.log(list.head.next)
