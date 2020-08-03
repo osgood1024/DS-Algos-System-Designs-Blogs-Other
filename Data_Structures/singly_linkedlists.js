@@ -48,6 +48,7 @@ class SinglyLinkedList{
 
     }
 
+    //remove  a node from the front of the linkedlist 
     shift(){
         if (!this.head)return undefined
         let currentHead=this.head;
@@ -60,6 +61,7 @@ class SinglyLinkedList{
 
     }
 
+    //unshift() add new node to the front of the linked list
     unshift(val){
        
         const newNode= new Node(val)
@@ -78,6 +80,51 @@ class SinglyLinkedList{
 
     }
 
+    //Get the index of the linkedlist  
+    get(index){
+        if(index<0 || index >=this.length) return null
+        let count=0;
+        let current=this.head
+        while(count!==index){
+            current=current.next
+            count++
+        }
+
+        return current
+
+    }
+
+//Set the index value to whatever the user is input
+    set(index,val){
+        let foundNode=this.get(index);
+        if(foundNode){
+            foundNode.val=val
+            return true
+        }
+        return false 
+
+    }
+
+
+    // Insert
+
+    insert(index,val){
+        if(index<0 ||index>this.length) return false ;
+        if(index=== this.length) return !!this.push(val);
+        if (index===0) return !!this.unshift(val);
+
+        let newNode=new Node(val);
+        let prev=this.get(index-1)
+        let temp=prev.next ;
+        prev.next=newNode;
+        newNode.next=temp;
+        this.length++
+        return true;
+
+        
+    }
+
+
 
 
 }
@@ -92,11 +139,15 @@ list.push("MR.OG")
 // list.pop()
 // list.pop()
 // list.push("WHADUP")
-list.shift()
-list.shift()
 // list.shift()
 // list.shift()
-list.unshift("welcome!!")
+// list.shift()
+// list.shift()
+// list.unshift("welcome!!")
+// list.set(2,"Money")
+console.log(list.insert(3,"supgurl"))
+
+
 console.log(list)
 
 // console.log(list.head)
