@@ -1,7 +1,5 @@
-# DS-and-Algos
+# DS-Algos-System Design
 
-
-Data Structures and Algorithms
 
 List of Data Structures
 * [Singly Linked Lists](https://github.com/osgood1024/DS-and-Algos/blob/master/Data_Structures/singly_linkedlists.js)
@@ -15,6 +13,7 @@ List of Data Structures
 * Graph Traversal
 
 
+[LeetCode solution](https://github.com/osgood1024/DS-and-Algos/tree/master/Leetcode) 
 
 
 Preparing Interview Resources and other useful links from Github:
