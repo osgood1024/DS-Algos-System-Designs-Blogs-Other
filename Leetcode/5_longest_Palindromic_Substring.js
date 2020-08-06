@@ -2,7 +2,7 @@
 // Leetcode #5 Longest Palindromic Substring
 /*
 Run time is not efficient solving with O(n^2) time complexity 
-IS CLASSIC DP problem
+This is a classic DP problem
 */
 let longestPalindrome = function(s) {
     // console.log(s[-1])
