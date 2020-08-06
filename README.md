@@ -12,8 +12,9 @@ List of Data Structures
 * Graphs
 * Graph Traversal
 
-
-[LeetCode solution](https://github.com/osgood1024/DS-and-Algos/tree/master/Leetcode) 
+Algorithms Practice platforms:
+* [Leetcode](https://leetcode.com/problemset/all/) || [Leetcode Solutions](https://github.com/osgood1024/DS-and-Algos/tree/master/Leetcode) 
+* [binarysearch.io](https://binarysearch.io/)
 
 
 Preparing Interview Resources and other useful links from Github:
