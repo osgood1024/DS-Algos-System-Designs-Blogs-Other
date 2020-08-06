@@ -45,6 +45,7 @@ Preparing Interview Resources and other useful links from Github:
 * [SDE Interview Questions](https://github.com/rishabh115/SDE-Interview-Questions)
 * [Cracking The Coding Interview](https://github.com/careercup/CtCI-6th-Edition)
 * [Ultimate Coding Resources List](https://github.com/PizzaPokerGuy/ultimate-coding-resources)
+* [A to Z Resources for Students](https://github.com/dipakkr/A-to-Z-Resources-for-Students#16-frontend-web-development)
 
 
 
