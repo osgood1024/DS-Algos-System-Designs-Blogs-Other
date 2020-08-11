@@ -52,6 +52,7 @@ Preparing Interview Resources and other useful links from Github:
 * [Ultimate Coding Resources List](https://github.com/PizzaPokerGuy/ultimate-coding-resources)
 * [A to Z Resources for Students](https://github.com/dipakkr/A-to-Z-Resources-for-Students#16-frontend-web-development)
 * [Awesome Coding Camps](https://github.com/theodesp/awesome-coding-camps)
-
+* [Best Websites a Programmer should visit](https://github.com/sdmg15/Best-websites-a-programmer-should-visit)
+* [Awesome System Design](https://github.com/madd86/awesome-system-design)
 
  
