@@ -1,7 +1,7 @@
 # DS-Algos-System Design
 
 
-List of Data Structures:
+### List of Data Structures:
 * [Singly Linked Lists](https://github.com/osgood1024/DS-and-Algos/blob/master/Data_Structures/singly_linkedlists.js)
 * Doubly Linked Lists
 * [Stacks](https://github.com/osgood1024/DS-and-Algos/blob/master/Data_Structures/stacks.js)
@@ -15,15 +15,14 @@ List of Data Structures:
 
 <br/>
 
-Algorithms Practice platforms:
+### Algorithms Practice platforms:
 * [Leetcode](https://leetcode.com/problemset/all/) || [Leetcode Solutions](https://github.com/osgood1024/DS-and-Algos/tree/master/Leetcode) 
 * [binarysearch.io](https://binarysearch.io/)
 * [CodeSignal](https://codesignal.com/) || [CodeSignal problems & solutions](https://github.com/osgood1024/DS-and-Algos/tree/master/Code_Signal)
 
 <br/>
 
-Preparing Interview Resources and other useful links from Github:
-
+### Preparing Interview Resources and other useful links from Github:
 * [Reverse Interview](https://github.com/viraptor/reverse-interview)
 * [Jwasham coding interview](https://github.com/jwasham/coding-interview-university)
 * [System Design Primer](https://github.com/donnemartin/system-design-primer)
