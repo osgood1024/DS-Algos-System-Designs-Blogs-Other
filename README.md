@@ -18,6 +18,7 @@ List of Data Structures:
 Algorithms Practice platforms:
 * [Leetcode](https://leetcode.com/problemset/all/) || [Leetcode Solutions](https://github.com/osgood1024/DS-and-Algos/tree/master/Leetcode) 
 * [binarysearch.io](https://binarysearch.io/)
+* [CodeSignal](https://codesignal.com/) || [CodeSignal problems & solutions](https://github.com/osgood1024/DS-and-Algos/tree/master/Code_Signal)
 
 <br/>
 
@@ -50,7 +51,7 @@ Preparing Interview Resources and other useful links from Github:
 * [Cracking The Coding Interview](https://github.com/careercup/CtCI-6th-Edition)
 * [Ultimate Coding Resources List](https://github.com/PizzaPokerGuy/ultimate-coding-resources)
 * [A to Z Resources for Students](https://github.com/dipakkr/A-to-Z-Resources-for-Students#16-frontend-web-development)
-
+* [Awesome Coding Camps](https://github.com/theodesp/awesome-coding-camps)
 
 
  
