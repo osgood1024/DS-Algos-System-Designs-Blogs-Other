@@ -3,7 +3,7 @@
 
 ### List of Data Structures:
 * [Singly Linked Lists](https://github.com/osgood1024/DS-and-Algos/blob/master/Data_Structures/singly_linkedlists.js)
-* Doubly Linked Lists
+* [Doubly Linked Lists](https://github.com/osgood1024/DS-and-Algos/blob/master/Data_Structures/doubly_linkedlists.js)
 * [Stacks](https://github.com/osgood1024/DS-and-Algos/blob/master/Data_Structures/stacks.js)
 * [Queues](https://github.com/osgood1024/DS-and-Algos/blob/master/Data_Structures/queues.js)
 * Binary Search Trees
