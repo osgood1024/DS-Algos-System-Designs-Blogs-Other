@@ -111,6 +111,26 @@ class DoublyLinkedList{
        return false 
     }
 
+    //insert(add) new node in the index 
+    insert(index,val){
+        if(index<0 ||index >this.length) return false;
+        //the double bang means return true or false
+        if(index===0) return !! this.unshift(val);
+        if(index===this.length) return !! this.push(val);
+
+        let newNode=new Node(val);
+        let beforeNode=this.get(index-1);
+        let afterNode=beforeNode.next;
+
+        beforeNode.next=newNode, newNode.prev=beforeNode ;
+        newNode.next=afterNode,afterNode.prev=newNode ;
+        this.length++
+
+        return true;;
+    }
+
+
+    //remove node in the index
     remove(index){
         if (index<0 || index>=this.length) return undefined;
         if(index===0) return this.shift()
@@ -132,12 +152,16 @@ let list= new DoublyLinkedList()
 list.push(100)
 list.push(99)
 list.push(90)
+list.push(24)
 
-list.unshift('hello')
-list.shift()
-list.pop()
-list.push(10000)
-list.set(0,"GUCCI")
+// list.unshift('hello')
+// list.shift()
+// list.pop()
+// list.push(10000)
+// list.set(0,"GUCCI")
+// list.insert(2,10)
 
+list.remove(1)
 
-console.log(list)
+// console.log(list)
+
