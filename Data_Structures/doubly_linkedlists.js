@@ -145,6 +145,31 @@ class DoublyLinkedList{
         this.length--
         return removeNode;
     }
+
+
+    //Reverse doublylinkedlist
+
+    reverse(){
+        let current=this.head;
+        this.head=this.tail;
+        this.tail=current;
+        let afterNode=null;
+        let beforeNode=null;
+
+        for(let i =0;i<this.length;i++){
+            afterNode=current.next;
+            current.next=beforeNode;
+            current.prev=afterNode;
+            beforeNode=current;
+            current=afterNode;
+        }
+
+        return this 
+
+    }
+
+
+
 }
 
 
@@ -161,7 +186,8 @@ list.push(24)
 // list.set(0,"GUCCI")
 // list.insert(2,10)
 
-list.remove(1)
+// list.remove(1)
+list.reverse()
 
-// console.log(list)
+console.log(list)
 
