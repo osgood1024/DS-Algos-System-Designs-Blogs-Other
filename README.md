@@ -53,5 +53,5 @@
 * [Awesome Coding Camps](https://github.com/theodesp/awesome-coding-camps)
 * [Best Websites a Programmer should visit](https://github.com/sdmg15/Best-websites-a-programmer-should-visit)
 * [Awesome System Design](https://github.com/madd86/awesome-system-design)
-
- 
+* [Roadmaps for Frontend, Backend, Devops ,React and more](https://roadmap.sh/)
+* [Building project collaboration for Jr.Devs](https://the-collab-lab.codes/)
