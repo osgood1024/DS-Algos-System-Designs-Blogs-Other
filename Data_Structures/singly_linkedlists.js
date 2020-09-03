@@ -171,7 +171,6 @@ class SinglyLinkedList{
     }
 
 
-
 }
 
 
@@ -184,7 +183,7 @@ list.push(20)
 list.push(24)
 list.push(50)
 
-console.log(list)
+// console.log(list)
 
 // console.log(list.print())
 // list.reverse()
@@ -219,3 +218,102 @@ console.log(list)
 // first.next= new Node("there")
 // first.next.next=new Node("how")
 // console.log(first)
+
+
+
+//we are going to use the class Node from the top 
+//Implementing Stack in Linkedlist LIFO (Last In First Out -Last in from the front of the list the first out to get out )
+class Stack {
+    constructor(){
+        this.first=null;
+        this.last=null;
+        this.size=0;
+    }
+    //should be like unshift(), but we call it push here ; since pop() method on the top for singlylinked list take O(n) should be O(1)
+    //so to avoid this, we add  node to the beginning of the list instead of the back of the list
+    push(val){
+        let newNode=new Node(val);
+        if(!this.first){
+            this.first=newNode;
+            this.last=newNode;
+        }else{
+            let temp=this.first;
+            this.first=newNode;
+            this.first.next=temp;
+
+        }
+        return ++this.size;
+    }
+    //Here is acting .shift() 
+    pop(){
+        if(!this.first) return null;
+        let temp=this.first;
+        if (this.first === this.last){
+            this.last=null;
+        }
+        this.first=this.first.next;
+        this.size --;
+        return temp.val;
+    }
+
+}
+
+let stack= new Stack()
+stack.push(12)
+stack.push(23)
+stack.push(8)
+stack.pop()
+stack.pop()
+
+// console.log(stack.pop())
+
+
+//Implementing Queue FIFO (First In First Out-The first one in will the first node on the list and last one would be the last node on the list )
+class Queue{
+    constructor(){
+        this.first=null;
+        this.last=null;
+        this.size=0 ;
+    }
+    //add to the end of the list (like push)
+    enqueue(val){
+        let newNode= new Node(val);
+        if(!this.first){
+            this.first=newNode;
+            this.last=newNode;
+        }else{
+            this.last.next=newNode;
+            this.last=newNode;
+        }
+
+        return ++this.size;
+    }
+
+    //remove the first node in the list (like shift)
+    dequeue(){
+        if(!this.first) return null
+        const temp=this.first;
+        if(this.first===this.last){
+            this.last=null;
+        }
+
+        this.first=this.first.next;
+        
+        this.size--;
+
+        return temp.val
+
+    }
+}
+
+
+let queue= new Queue()
+
+queue.enqueue("FIRST")
+queue.enqueue(12)
+queue.enqueue("LAST")
+queue.dequeue()
+console.log(queue)
+
+
+
