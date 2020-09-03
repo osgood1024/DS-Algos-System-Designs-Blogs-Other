@@ -176,15 +176,22 @@ class SinglyLinkedList{
 
 
 let list = new SinglyLinkedList()
+
+
 list.push(1)
 list.push(10)
 list.push(20)
 list.push(24)
 list.push(50)
 
-console.log(list.print())
-list.reverse()
-console.log(list.print())
+console.log(list)
+
+// console.log(list.print())
+// list.reverse()
+// console.log(list.print())
+
+
+
 // list.pop()
 // list.pop()
 // list.pop()
