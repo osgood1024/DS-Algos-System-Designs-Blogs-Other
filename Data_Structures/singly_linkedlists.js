@@ -222,15 +222,19 @@ list.push(50)
 
 
 //we are going to use the class Node from the top 
-//Implementing Stack in Linkedlist LIFO (Last In First Out -Last in from the front of the list the first out to get out )
+
+
+//Implementing Stack in Linkedlist LIFO 
+// (Last In First Out - Last one in from the front of the list is the first one to get out )
 class Stack {
     constructor(){
         this.first=null;
         this.last=null;
         this.size=0;
     }
-    //should be like unshift(), but we call it push here ; since pop() method on the top for singlylinked list take O(n) should be O(1)
-    //so to avoid this, we add  node to the beginning of the list instead of the back of the list
+    //should act like .unshift() method in the array , but we call it push here.
+    //since taking out the last node in the list take O(n), not O(1) linear time.
+    //so to avoid this, we can add node to the beginning of the list instead from the back.
     push(val){
         let newNode=new Node(val);
         if(!this.first){
@@ -244,7 +248,7 @@ class Stack {
         }
         return ++this.size;
     }
-    //Here is acting .shift() 
+    //Here is acting .shift() in the array - removing the first node in the list 
     pop(){
         if(!this.first) return null;
         let temp=this.first;
@@ -259,6 +263,8 @@ class Stack {
 }
 
 let stack= new Stack()
+
+
 stack.push(12)
 stack.push(23)
 stack.push(8)
@@ -268,14 +274,15 @@ stack.pop()
 // console.log(stack.pop())
 
 
-//Implementing Queue FIFO (First In First Out-The first one in will the first node on the list and last one would be the last node on the list )
+//Implementing Queue FIFO 
+//(First In First Out-The first one in is the first node on the list and first one to come out)
 class Queue{
     constructor(){
         this.first=null;
         this.last=null;
         this.size=0 ;
     }
-    //add to the end of the list (like push)
+    //add to the end of the list (like .push() method in array)
     enqueue(val){
         let newNode= new Node(val);
         if(!this.first){
@@ -289,7 +296,7 @@ class Queue{
         return ++this.size;
     }
 
-    //remove the first node in the list (like shift)
+    //remove the first node in the list (like .shift() method in array -similar with stack pop method in linkedlist)
     dequeue(){
         if(!this.first) return null
         const temp=this.first;
