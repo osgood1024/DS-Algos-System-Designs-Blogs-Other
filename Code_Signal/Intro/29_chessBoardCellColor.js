@@ -50,10 +50,14 @@ function chessBoardCellColor(cell1, cell2) {
 
 }
 
-/**
- * 
- * 
- * faster solution
- * 
- * 
+/*
+Some logic trick less code
+
+function chessBoardCellColor(cell1, cell2) {
+ //check if both alphabet and number add up is even or odd 
+ //If its even than they should match since odd + even is always odd
+      return (cell1.charCodeAt(0)+Number(cell1[1])+cell2.charCodeAt(0)+Number(cell2[1]))%2==0  
+
+}
+ 
  */
