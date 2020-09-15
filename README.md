@@ -61,3 +61,7 @@
 * [System Design Interview](https://github.com/checkcheckzz/system-design-interview)
 * [System design video](https://www.youtube.com/playlist?list=PL4KdJM8LzAMecwInbBK5GJ3Anz-ts75RQ)
 * [Quick summary slide](https://docs.google.com/presentation/d/1UMDZtvgYUksip_Jx1nzAuDYAPeaoB4heYZr6gbyjvb8/mobilepresent?slide=id.g85adf1d4a5_0_1392)
+
+
+### Miscellaneous
+* [Preparation strategy from leetcode (important questions)](https://leetcode.com/discuss/general-discussion/844616/preparation-strategy-from-leetcode-important-questions)
