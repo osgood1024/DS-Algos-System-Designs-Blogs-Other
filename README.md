@@ -25,11 +25,9 @@
 ### Preparing Interview Resources and other useful links from Github:
 * [Reverse Interview](https://github.com/viraptor/reverse-interview)
 * [Jwasham coding interview](https://github.com/jwasham/coding-interview-university)
-* [Front End Interview Questions](https://github.com/h5bp/Front-end-Developer-Interview-Questions) 
 * [Back End Interview Questions](https://github.com/arialdomartini/Back-End-Developer-Interview-Questions)
 * [Tech Interview Handbook](https://yangshun.github.io/tech-interview-handbook/)
 * [Awesome Interviews](https://github.com/MaximAbramchuck/awesome-interview-questions)
-* [React Interview Questions](https://github.com/sudheerj/reactjs-interview-questions)
 * [Andreis Interviews](https://github.com/andreis/interview)
 * [kdn251 Interviews](https://github.com/kdn251/interviews)
 * [trekhleb Algos](https://github.com/trekhleb/javascript-algorithms)
@@ -38,7 +36,6 @@
 * [Android Interviews Questions](https://github.com/MindorksOpenSource/android-interview-questions)
 * [Interview Questions in JS](https://github.com/kennymkchan/interview-questions-in-javascript)
 * [Software Engineering Interview Prep](https://github.com/orrsella/soft-eng-interview-prep)
-* [JavaScript Interview Questions & Answers](https://github.com/sudheerj/javascript-interview-questions)
 * [Data Structures and Algorithms in JavaScript](https://github.com/amejiarosario/dsa.js-data-structures-algorithms-javascript)
 * [Awesome Android Interview](https://github.com/JsonChao/Awesome-Android-Interview)
 * [123-JavaScript-Interview-Questions](https://github.com/ganqqwerty/123-Essential-JavaScript-Interview-Questions)
@@ -53,6 +50,12 @@
 
 <br/>
 
+### Front End
+* [Spellbook of Modern Web Dev](https://github.com/dexteryy/spellbook-of-modern-webdev)
+* [JavaScript Interview Questions & Answers](https://github.com/sudheerj/javascript-interview-questions)
+* [React Interview Questions](https://github.com/sudheerj/reactjs-interview-questions)
+* [Front End Interview Questions](https://github.com/h5bp/Front-end-Developer-Interview-Questions) 
+
 ### System Design 
 * [Awesome Scalibity Design Interviews](https://github.com/binhnguyennus/awesome-scalability)
 * [Awesome System Design](https://github.com/madd86/awesome-system-design)
@@ -61,3 +64,8 @@
 * [System Design Interview](https://github.com/checkcheckzz/system-design-interview)
 * [System design video](https://www.youtube.com/playlist?list=PL4KdJM8LzAMecwInbBK5GJ3Anz-ts75RQ)
 * [Quick summary slide](https://docs.google.com/presentation/d/1UMDZtvgYUksip_Jx1nzAuDYAPeaoB4heYZr6gbyjvb8/mobilepresent?slide=id.g85adf1d4a5_0_1392)
+* [low-level-design-primer](https://github.com/prasadgujar/low-level-design-primer)
+
+
+### Miscellaneous
+* [Preparation strategy from leetcode (important questions)](https://leetcode.com/discuss/general-discussion/844616/preparation-strategy-from-leetcode-important-questions)
