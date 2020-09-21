@@ -6,7 +6,7 @@
 * [Doubly Linked Lists](https://github.com/osgood1024/DS-and-Algos/blob/master/Data_Structures/doubly_linkedlists.js)
 * [Stacks](https://github.com/osgood1024/DS-and-Algos/blob/master/Data_Structures/stacks.js)
 * [Queues](https://github.com/osgood1024/DS-and-Algos/blob/master/Data_Structures/queues.js)
-* Binary Search Trees
+* [Binary Search Trees](https://github.com/osgood1024/DS-and-Algos/blob/master/Data_Structures/binary_search_trees.js)
 * Tree Traversal
 * Binary Heaps
 * Hash Tables 
