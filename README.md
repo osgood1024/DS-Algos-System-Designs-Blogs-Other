@@ -13,14 +13,14 @@
 * Graphs
 * Graph Traversal
 
-<br/>
+
 
 ### Algorithms Practice platforms:
 * [Leetcode](https://leetcode.com/problemset/all/) || [Leetcode Solutions](https://github.com/osgood1024/DS-and-Algos/tree/master/Leetcode) 
 * [binarysearch.io](https://binarysearch.io/) || [add me as a friend](https://binarysearch.io/@/the_goodone)
 * [CodeSignal](https://codesignal.com/) || [CodeSignal problems & solutions](https://github.com/osgood1024/DS-and-Algos/tree/master/Code_Signal)
 
-<br/>
+
 
 ### Preparing Interview Resources and other useful links from Github:
 * [Reverse Interview](https://github.com/viraptor/reverse-interview)
@@ -48,7 +48,6 @@
 * [Roadmaps for Frontend, Backend, Devops ,React and more](https://roadmap.sh/)
 * [Building project collaboration for Jr.Devs](https://the-collab-lab.codes/)
 
-<br/>
 
 ### Front End
 * [Spellbook of Modern Web Dev](https://github.com/dexteryy/spellbook-of-modern-webdev)
