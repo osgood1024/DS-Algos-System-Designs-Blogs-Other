@@ -17,7 +17,7 @@
 
 ### Algorithms Practice platforms:
 * [Leetcode](https://leetcode.com/problemset/all/) || [Leetcode Solutions](https://github.com/osgood1024/DS-and-Algos/tree/master/Leetcode) 
-* [binarysearch.io](https://binarysearch.io/) || [add me as a friend](https://binarysearch.io/@/the_goodone)
+* [binarysearch.com](https://binarysearch.io/) || [add me as a friend](https://binarysearch.io/@/the_goodone)
 * [CodeSignal](https://codesignal.com/) || [CodeSignal problems & solutions](https://github.com/osgood1024/DS-and-Algos/tree/master/Code_Signal)
 
 
