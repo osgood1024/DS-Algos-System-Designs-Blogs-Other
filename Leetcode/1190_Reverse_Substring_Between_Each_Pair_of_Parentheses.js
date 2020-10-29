@@ -3,8 +3,6 @@
 
 */
 
-
-
 const reverseParentheses=function(s){
 
     let stack=[]
