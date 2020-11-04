@@ -32,6 +32,36 @@ var flatten = function(root) {
     }
     
     traverse(root)
-   
-    
+
 };
+
+
+//There is bfs version in binarysearch.com (https://binarysearch.com/problems/Level-Order-Binary-Search-Tree-to-Linked-List)
+
+/**
+ *     
+        let queue = [root]
+        let list=new LLNode(0)
+        // You will need to make a copy of list (result) and return result.next .
+        // If you don't make a copy and return list it will return the last list of the value; since the while loop
+        // went through all the list until the end.
+        
+       let result=list
+       
+       while (queue.length > 0) {
+
+           let node=queue.shift()
+           
+           // data.push(node.val)
+           list.next=new LLNode(node.val)
+           list=list.next
+           
+           if(node.left)queue.push(node.left)
+           if(node.right)queue.push(node.right)
+       
+       }
+      
+      return result.next
+ * 
+ * 
+ */
