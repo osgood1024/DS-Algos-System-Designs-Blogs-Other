@@ -21,10 +21,7 @@ const coinChange=function(coins, amount){
 }
 
 
-
-
 // Another Bottom up Approach 
-
 
 const coinChange = function(coins, amount) {
     const map = {0:1}
