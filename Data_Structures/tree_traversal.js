@@ -41,7 +41,7 @@ class BinarySearchTree{
         let data=[], 
             queue=[], 
             node=this.root //node can be undefined intially 
-        queue.push(node);
+            queue.push(node);
 
         while(queue.length){
             node=queue.shift()
@@ -50,6 +50,12 @@ class BinarySearchTree{
             if (node.right)queue.push(node.right);
         }
         return data
+        /**
+         * 
+         * Once understanding the BFS concept try to solve this problem: 
+         * https://binarysearch.com/problems/Level-Order-Traversal
+         * 
+         */
     }
 
     //recursively => traverse on the left first and the right 
