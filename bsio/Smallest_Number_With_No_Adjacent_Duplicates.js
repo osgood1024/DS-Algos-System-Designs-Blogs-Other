@@ -1,6 +1,6 @@
 
 // Smallest Number With No Adjacent Duplicates
-// 11/21/2020 easy  question contest
+// Weekly Contest 34 Easy question 
 
 class Solution {
     solve(s) {
