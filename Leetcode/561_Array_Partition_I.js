@@ -29,9 +29,64 @@ const arrayPairSum=function(nums){
  * 
  */
 
- var arrayPairSum=fucnction(nums){
+ var arrayPairSum = function(nums){
+     
+    const buckets = new Uint16Array(20001);
+    for (let i = 0; i < nums.length; i++) {
+        buckets[nums[i] + 10000]++;
+      
+    }    
+    
+    let numIdx = 0;
+    for (let i = 0; i < 20001; i++) {
+        const v = buckets[i];
+        if (v !== 0) {
+            
+            for (let j = 0; j < v; j++) {
+                nums[numIdx++] = i - 10000;
+            }
+        }
+    }
+    
+    let ans = 0;
+    for (let i = 0; i < nums.length; i += 2) {
+        ans += nums[i];
+    }
+    
+    return ans;
      
  }
+
+//buckets sort 
+ var arrayPairSum = function(nums) {
+    
+    if (!nums || nums.length == 0) return nums;
+        
+        const bucket = new Array(20001).fill(0);
+        
+        for (let i = 0; i < nums.length; i++) {
+            bucket[nums[i] + 10000]++;
+        }
+        
+        let res = 0, flag = true;
+        
+        for (let i = 0; i < bucket.length; i++) {
+            while(bucket[i] > 0) {
+                if (flag) {
+                    res += i - 10000;
+                }
+                flag = !flag;
+                bucket[i]--;
+            }
+        }
+        
+        return res;
+        
+    };
+
+
+
+  
 
 
 
