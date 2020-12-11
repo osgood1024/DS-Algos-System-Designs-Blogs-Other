@@ -8,7 +8,7 @@
 * [Queues](https://github.com/osgood1024/DS-and-Algos/blob/master/Data_Structures/queues.js)
 * [Binary Search Trees](https://github.com/osgood1024/DS-and-Algos/blob/master/Data_Structures/binary_search_trees.js)
 * [Tree Traversal](https://github.com/osgood1024/DS-and-Algos/blob/master/Data_Structures/tree_traversal.js)
-* Binary Heaps
+* [Binary Heaps](https://github.com/osgood1024/DS-and-Algos/blob/master/Data_Structures/binary_heap.js)
 * Hash Tables 
 * Graphs
 * Graph Traversal
