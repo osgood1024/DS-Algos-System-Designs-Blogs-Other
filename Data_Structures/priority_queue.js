@@ -1,10 +1,11 @@
-class  MaxBinaryHeap{
+class PriorityQueue{
     constructor(){
-        this.values=[41,39,33]
+        this.values=[]
     }
 
-    insert(element){
-        this.values.push(element)
+    enqueue(val, priority){
+        let newNode=new Node(val,priority)
+        this.values.push(newNode)
         this.bubbleUp();
     }
 
@@ -14,17 +15,17 @@ class  MaxBinaryHeap{
         while(idx>0){
             let parentIdx=Math.floor((idx-1)/2)
             let parent=this.values[parentIdx];
-            if(element<=parent)break;
+            if(element.priority<=parent.priority)break;
             this.values[parentIdx]=element;
             this.values[idx]=parent
             idx= parentIdx
         }
     }
 
-    extractMax(){
+    dequeue(){
         const max=this.values[0]
         const end=this.values.pop();
-        if(this.values.length>0){
+        if(this.values.length > 0){
             this.values[0]=end;
             this.sinkDown()
         }
@@ -42,14 +43,14 @@ class  MaxBinaryHeap{
 
             if(leftChildIdx<length){
                 leftChild=this.values[leftChildIdx]
-                if(leftChild>element){
+                if(leftChild.priority>element.priority){
                     swap=leftChildIdx;
                 }
             }
 
             if(rightChildIdx<length){
                 rightChild=this.values[rightChildIdx]
-                if( (swap === null && rightChild> element) || (swap!==null && rightChild>leftChild) ){
+                if( (swap === null && rightChild.priority>element.priority ) || (swap!==null && rightChild.priority>leftChild.priority) ){
                     swap=rightChildIdx
                 }
             }
@@ -65,24 +66,19 @@ class  MaxBinaryHeap{
 
 }
 
+class Node{
+    constructor(val, priority){
+        this.val=val;
+        this.priority=priority
+    }
+}
+const ER =new PriorityQueue();
+ER.enqueue('common cold',1)
+ER.enqueue('covid',9)
+ER.enqueue('High fever',3)
+// ER.dequeue()
+// ER.dequeue()
 
+console.log(ER)
 
-let heap= new MaxBinaryHeap()
-heap.insert(55);
-heap.insert(1);
-heap.insert(45);
-heap.insert(100);
-heap.insert(69)
-heap.extractMax();
-heap.extractMax();
-heap.extractMax();
-
-// heap.extractMax();
-// heap.extractMax();
-// heap.extractMax();
-// heap.extractMax();
-
-
-console.log(heap)
-
-
+// if you want the min binary heap just change the comparison logic > to < and all of that
