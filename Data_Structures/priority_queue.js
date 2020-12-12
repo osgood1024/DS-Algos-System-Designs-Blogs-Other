@@ -1,3 +1,16 @@
+
+// Priority Queue is similar to Binary heap is just Priority queue is a concept is like any other implementation.
+
+
+/**
+ * 
+ * A priority queue can have any implementation, like a array that you search linearly when you pop. 
+ * All it means is that when you pop you get the value with either the minimum or the maximum depending. 
+ * 
+ * A classic heap as it is typically referred to is usually a min heap. 
+ * An implementation that has good time complexity (O(log n) on push and pop) and no memory overhead.
+ * Search time complexity- O(n) => not good for searching but is good optimal for insert and removal 
+ */
 class PriorityQueue{
     constructor(){
         this.values=[]
@@ -81,4 +94,4 @@ ER.enqueue('High fever',3)
 
 console.log(ER)
 
-// if you want the min binary heap just change the comparison logic > to < and all of that
+//the min binary heap (the other way around) just change the comparison logic > to < and all of that.
