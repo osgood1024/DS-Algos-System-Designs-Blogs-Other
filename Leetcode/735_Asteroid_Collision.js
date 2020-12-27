@@ -3,6 +3,8 @@
 
 // This question is similar with the 'space battle' in bsio
 
+// Utilize Stack to solve this problem 
+
 
 
 var asteroidCollision = function(asteroids) {
