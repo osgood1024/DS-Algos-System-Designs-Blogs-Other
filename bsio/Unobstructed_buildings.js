@@ -3,6 +3,8 @@
 /*
 01/02/2021
 Weekly Contest 40 (easy)
+
+This problem is similar with Turtle of Wall Street (Weekly Contest 32-easy)
 */
 
 
