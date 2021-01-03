@@ -1,7 +1,7 @@
 // 14 Longest Common Prefix
 // There are different ways of solving this problem
 
-// Vertical Scanning
+// Vertical Scanning - Time Complexity:O(S), Space Complexity:
 const longestCommonPrefix=function(strs){
 
     if(strs==null ||strs.length==0)return ""
