@@ -1,6 +1,5 @@
 // #259 3Sum Smaller
 
-
 // Time complexity O(n^2) and space O(1)
 const threeSumSmaller=function (nums,target){
     let sorted=nums.sort((a,b)=>a-b)

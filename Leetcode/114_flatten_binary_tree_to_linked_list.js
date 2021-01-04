@@ -1,5 +1,5 @@
 /**
- * leetcode #114 Flatten Binary Tree To Linked List 
+ * #114 Flatten Binary Tree To Linked List 
  * 
  * 
  * Definition for a binary tree node.

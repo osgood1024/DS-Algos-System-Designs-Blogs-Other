@@ -1,4 +1,4 @@
-// Leetcode #669 Trim a Binary Search Tree
+// #669 Trim a Binary Search Tree
 
 // Both Time and Space Complexity => O(n)
 

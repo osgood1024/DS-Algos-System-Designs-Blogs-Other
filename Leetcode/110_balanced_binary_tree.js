@@ -1,4 +1,4 @@
-// Leetcode #110 Balanced Binary Tree
+// #110 Balanced Binary Tree
 
 /**
  * Definition for a binary tree node.

@@ -1,4 +1,4 @@
-// Leetcode #322  Coin Change
+//#322  Coin Change
 
 //Bottom Up Approach-personally this harder idea to come up with 
 // This down below codes run faster in term of time complexity than the other two 

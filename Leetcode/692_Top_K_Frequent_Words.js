@@ -1,4 +1,4 @@
-//  Leetcode #692 Top K Frequent Words
+// #692 Top K Frequent Words
 
 const topKFrequent=function (words,k){
     let arr= new Array(k).fill('')

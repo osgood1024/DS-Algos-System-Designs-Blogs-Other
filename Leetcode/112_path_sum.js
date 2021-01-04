@@ -1,4 +1,4 @@
-//Leetcode #112 Path Sum
+// #112 Path Sum
 
 //this is how you traverse tree and add the total
 const hasPathSum= function (root, sum){

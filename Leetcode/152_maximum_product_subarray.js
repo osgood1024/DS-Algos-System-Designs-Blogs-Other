@@ -1,7 +1,5 @@
 /**
- * Leetcode #152 Maximum Proudct Subarray 
- * 
- * 
+ *  #152 Maximum Proudct Subarray 
  */
 
 

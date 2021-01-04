@@ -1,5 +1,5 @@
 /**
- * leetcode #94 binary tree inorder traversal 
+ * #94 binary tree inorder traversal 
  * 
  * Definition for a binary tree node.
  * function TreeNode(val, left, right) {

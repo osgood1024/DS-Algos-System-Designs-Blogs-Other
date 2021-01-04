@@ -1,6 +1,5 @@
 /*
 #1190 .Reverse Substrings Between Each Pair of Parentheses
-
 */
 
 const reverseParentheses=function(s){

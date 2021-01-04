@@ -1,6 +1,10 @@
 
-//Use Stack DS 
+/**
+ * #856 Score Of Parentheses
+ */
+
 /*
+Use Stack DS 
 Time and Space Complexity :O(N)
 */
 var scoreOfParentheses = function(S) {

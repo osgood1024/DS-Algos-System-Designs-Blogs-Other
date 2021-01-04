@@ -1,4 +1,4 @@
-// Leetcode #17 Letter Combinations of a Phone Number
+// #17 Letter Combinations of a Phone Number
 
 //Recursion method
 const letterCombinations=function (digits){

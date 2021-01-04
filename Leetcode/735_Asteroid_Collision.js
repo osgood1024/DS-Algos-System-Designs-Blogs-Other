@@ -1,5 +1,5 @@
 
-//Leetcode #735 Asteroid Collision 
+//#735 Asteroid Collision 
 
 // This question is similar with the 'space battle' in bsio
 

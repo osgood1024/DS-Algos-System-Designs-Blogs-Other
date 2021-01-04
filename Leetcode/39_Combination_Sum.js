@@ -1,4 +1,4 @@
-// Leetcode #39 Combination Sum
+// #39 Combination Sum
 
 //This is very classic Backtracking problem
 var combinationSum=function (candidates, target){

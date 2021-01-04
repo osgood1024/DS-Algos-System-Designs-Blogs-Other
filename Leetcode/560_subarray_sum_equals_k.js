@@ -1,4 +1,4 @@
-// Leetcode #560 Subarray Sum Equals K
+//  #560 Subarray Sum Equals K
 
 //solving it with O(n) hash table => Best optimal solution 
 const subarraySum= function (nums,k){

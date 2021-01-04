@@ -1,5 +1,5 @@
 
-// Leetcode #1710 Maximum Unts on a Truck (Weekly Contest 222 (easy))
+//  #1710 Maximum Unts on a Truck (Weekly Contest 222 (easy))
 
 
 // Time complexity for this one could be O(n^2)

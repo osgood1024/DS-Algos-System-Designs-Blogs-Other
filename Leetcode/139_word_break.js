@@ -1,6 +1,4 @@
-// Leetcode #139 Word break 
-
-
+//  #139 Word break 
 
 const wordBreak=function(s,wordDict){
     if(wordDict.length==0||!wordDict)return false

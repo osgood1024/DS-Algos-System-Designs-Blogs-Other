@@ -1,3 +1,5 @@
+
+// #128 Longest Consecutive Sequence 
 var longestConsecutive = function(nums) {
     
     if(nums === null || nums.length === 0)
