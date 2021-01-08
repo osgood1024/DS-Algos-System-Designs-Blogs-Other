@@ -1,6 +1,5 @@
 // #647 Palindromic Substrings
 
-
 /**
  * 
  * They are many  different ways of solving this problem
@@ -19,9 +18,9 @@ const countSubstrings=function(s){
     let count=0
     for(let i =0;i<s.length;i++){
 
-        helper(s,i,i) // Found all the single number length Palindromic 
+        helper(s,i,i) // Every single character in the string is a center for possible odd-length palindromes
 
-        helper(s,i,i+1) // Found all the even Number Length Palindromic
+        helper(s,i,i+1) // Every pair of consecutive characters in the string is a center for possible even-length palindromes.
     }
 
     return count
