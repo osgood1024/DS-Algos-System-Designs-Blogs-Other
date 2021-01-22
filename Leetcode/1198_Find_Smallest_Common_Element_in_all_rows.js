@@ -1,5 +1,14 @@
 // #1198 Find Smallest Common Element in All Rows
 
+/**
+ * We can count all elements, and then pick the smalles one that appears n times. 
+ * This approach has a linear time complexity - at the cost of additional memory for storing counts.
+ * 
+ * Also, we can use a binary search to look elements up directly in the matrix.
+ * We won't need any additional memory, though this approach will be a bit slower.
+ * 
+ */
+
 // Hash table
 // Time Complexity -O(nm), where n and m are the number of rows and columns 
 // space Complexity - constrained problem: O(10000)=O(1)
