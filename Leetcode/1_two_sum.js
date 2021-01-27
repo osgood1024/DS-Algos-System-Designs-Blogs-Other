@@ -7,7 +7,7 @@
 // Space complexity : O(n). 
 // The extra space required depends on the number of items stored in the hash table,
 // which stores at most n elements.
-const twoSum= function (nums, target){
+const twoSum = function (nums, target){
 
     let hash={}
 
@@ -19,7 +19,7 @@ const twoSum= function (nums, target){
          * The reason why we dont want to put if (hash[diff]) only 
          * is because if hash[diff]=0 is not true since zero is falsely
          */
-    ]// Here we can also use : if (hash[diff]!=undefined)
+    // Here we can also use : if (hash[diff]!=undefined)
         if(hash[diff]!=null){
             return [hash[nums[i]],i]
         }
