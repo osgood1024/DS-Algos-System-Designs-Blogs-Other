@@ -53,7 +53,9 @@
 * [Spellbook of Modern Web Dev](https://github.com/dexteryy/spellbook-of-modern-webdev)
 * [JavaScript Interview Questions & Answers](https://github.com/sudheerj/javascript-interview-questions)
 * [React Interview Questions](https://github.com/sudheerj/reactjs-interview-questions)
-* [Front End Interview Questions](https://github.com/h5bp/Front-end-Developer-Interview-Questions) 
+* [Front End Interview Questions](https://github.com/h5bp/Front-end-Developer-Interview-Questions)
+* [JS: In JS we trust](https://github.com/yeungon/In-JavaScript-we-trust) 
+* [EA Games | Interview questions](https://leetcode.com/discuss/interview-question/1043676/JavaScript-or-Interview-questions-or-Top-Gaming-company)
 
 ### System Design 
 * [Awesome Scalibity Design Interviews](https://github.com/binhnguyennus/awesome-scalability)
