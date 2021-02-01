@@ -30,7 +30,7 @@ Output : 2
  * 
  */
 
-//The most simple way to do it,however time complexity O(n^2) and space O(n)
+//The most simple way to do it,however time complexity O(n^2) and space O(1)
 /*
  const CountPassingCars = function(n){
      
@@ -46,30 +46,59 @@ Output : 2
     }
     return count
  }
-*/
+
+ */
+
 
 // More efficient way to do it: Time complexity => O(n), Space complexity=>O(1)
+/*
 const CountPassingCars = function(n){
     
     let countOne=0
 
     let countCars=0
-    // Here just look at this way if we are car Zero how many car one we passed by if we traverse from the right
-    // however each 0 is 
     for(let i=n.length-1;i>=0;i--){
+        // Here just look at this way, if we are car Zero how many car 1s we passed by 
+        // if we traverse from the right to left
         if(n[i]===1){
             countOne++
-        }else{
+        }
+        // everytime we see 0 we increment the countCars with total countOne
+        else{
             countCars+=countOne
         }
     }
     return countCars
  }
 
+*/
 
 
-//  let n =[0, 1, 0, 1, 1]
-let n=[1, 0, 0, 0, 1]
+// Another way from the front 
+
+ const CountPassingCars = function(n){
+    
+    let countZero=0
+
+    let countCars=0
+    for(let i=0;i<n.length;i++){
+        if(n[i]===0){
+            countZero++
+        }else{
+
+            countCars+=countZero
+        }
+    }
+    return countCars
+ }
+
+
+ 
+
+
+
+ let n =[0, 1, 0, 1, 1]
+// let n=[1, 0, 0, 0, 1]
 
 // let n =[0, 0, 1, 0, 0]
  console.log(CountPassingCars(n))
