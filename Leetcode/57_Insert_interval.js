@@ -3,6 +3,14 @@
 
 
 // Greedy Approach 
+
+/**
+ * 
+ * Time complexity : O(N) since it's one pass along the input array.
+ * Space complexity : O(N) to keep the output.    
+ * 
+ */
+
 var insert = function(intervals, newInterval) {
     
     
