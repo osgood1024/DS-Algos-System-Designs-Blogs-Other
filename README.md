@@ -10,7 +10,7 @@
 * [Tree Traversal](https://github.com/osgood1024/DS-and-Algos/blob/master/Data_Structures/tree_traversal.js)
 * [Binary Heaps](https://github.com/osgood1024/DS-and-Algos/blob/master/Data_Structures/binary_heap.js)
 * Hash Tables 
-* Graphs
+* [Graphs](https://github.com/osgood1024/DS-and-Algos/blob/master/Data_Structures/graph.js)
 * Graph Traversal
 
 
