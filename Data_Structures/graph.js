@@ -28,25 +28,64 @@ class Graph{
        }
 
        delete this.adjacencyList[vertex]
-
     }
+
+    dfs(start){
+        const result =[]
+        const visited={}
+        const adjacencyList=this.adjacencyList
+
+        function dfs1(vertex){
+            if(!vertex) return null
+            visited[vertex]=true
+            result.push(vertex)
+            adjacencyList[vertex].forEach(neighbor => {
+                if(!visited[neighbor]){
+                    return dfs1(neighbor)
+                }
+            })
+        }
+        dfs1(start)
+
+        return result
+    }
+
+
 }
 
 const g= new Graph()
 
-g.addVertex('Tokyo')
-g.addVertex('Seoul')
-g.addVertex('Jakarta')
-g.addVertex('New_Jersey')
+// g.addVertex('Tokyo')
+// g.addVertex('Seoul')
+// g.addVertex('Jakarta')
+// g.addVertex('New_Jersey')
 
-g.addEdge('Tokyo','Seoul')
-g.addEdge('New_Jersey','Tokyo')
-g.addEdge('Jakarta','Tokyo')
-g.addEdge('Seoul','Jakarta')
+// g.addEdge('Tokyo','Seoul')
+// g.addEdge('New_Jersey','Tokyo')
+// g.addEdge('Jakarta','Tokyo')
+// g.addEdge('Seoul','Jakarta')
 
-g.removeVertex('Tokyo')
-g.removeVertex('New_Jersey')
+// g.removeVertex('Tokyo')
+// g.removeVertex('New_Jersey')
 // g.removeEdge('Tokyo','Jakarta')
 // g.removeEdge('Seoul','Tokyo')
-console.log(g)
+
+g.addVertex('A')
+g.addVertex('B')
+g.addVertex('C')
+g.addVertex('D')
+g.addVertex('E')
+g.addVertex('F')
+
+g.addEdge('A','B')
+g.addEdge('A','C')
+g.addEdge('B','D')
+g.addEdge('C','E')
+g.addEdge('D','E')
+g.addEdge('D','F')
+g.addEdge('E','F')
+
+console.log(g.dfs('A'))
+
+// console.log(g)
 
