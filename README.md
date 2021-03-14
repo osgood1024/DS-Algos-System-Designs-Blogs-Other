@@ -11,6 +11,7 @@
 * [Binary Heaps](https://github.com/osgood1024/DS-and-Algos/blob/master/Data_Structures/binary_heap.js)
 * Hash Tables 
 * [Graphs](https://github.com/osgood1024/DS-and-Algos/blob/master/Data_Structures/graph.js)
+* [Priority Queue]()
 * Graph Traversal
 
 
