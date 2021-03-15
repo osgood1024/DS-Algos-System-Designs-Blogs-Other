@@ -22,6 +22,7 @@ class PriorityQueue{
         this.bubbleUp();
     }
 
+    
     bubbleUp(){
         let idx=this.values.length-1;
         const element=this.values[idx];

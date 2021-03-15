@@ -9,7 +9,7 @@
 * [Binary Search Trees](https://github.com/osgood1024/DS-and-Algos/blob/master/Data_Structures/binary_search_trees.js)
 * [Tree Traversal](https://github.com/osgood1024/DS-and-Algos/blob/master/Data_Structures/tree_traversal.js)
 * [Binary Heaps](https://github.com/osgood1024/DS-and-Algos/blob/master/Data_Structures/binary_heap.js)
-* [Priority Queue](https://github.com/osgood1024/DS-and-Algos/blob/master/Data_Structures/priority_queue2.js)
+* [Priority Queue](https://github.com/osgood1024/DS-and-Algos/blob/master/Data_Structures/priority_queue.js)
 * Hash Tables 
 * [Graphs](https://github.com/osgood1024/DS-and-Algos/blob/master/Data_Structures/graph.js)
 * Graph Traversal
