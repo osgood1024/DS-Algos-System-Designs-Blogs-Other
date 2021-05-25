@@ -1,5 +1,14 @@
 // #1143   Longest Common Subsequence
 
+
+/*
+Similar lCS questions in Leetcode 
+1092. Shortest Common Supersequence
+1062. Longest Repeating Substring 
+516. Longest Palindromic Subsequence
+1312. Minimum Insertion Steps to Make a String Palindrome
+*/
+
 // DP Time and Space Complexity => O(MN)
 /**
  * Time Complexity:
