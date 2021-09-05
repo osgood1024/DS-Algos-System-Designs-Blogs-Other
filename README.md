@@ -67,7 +67,9 @@
 * [System design video](https://www.youtube.com/playlist?list=PL4KdJM8LzAMecwInbBK5GJ3Anz-ts75RQ)
 * [Quick summary slide](https://docs.google.com/presentation/d/1UMDZtvgYUksip_Jx1nzAuDYAPeaoB4heYZr6gbyjvb8/mobilepresent?slide=id.g85adf1d4a5_0_1392)
 * [low-level-design-primer](https://github.com/prasadgujar/low-level-design-primer)
-
-
+* [System Design Algorithms](https://github.com/resumejob/system-design-algorithms)
+* [Awesome-distributed-systems](https://github.com/theanalyst/awesome-distributed-systems)
+* [System Design Interesting Reads](https://docs.google.com/document/d/1iKk6vJbWtI02AllnIEZTrKWQb4dT2QthJdRt05vq6Hw/edit)
+* [System Design Study Guide](https://docs.google.com/spreadsheets/d/11xm8afwAdAmiilMCSr3YDOB9TkEVUCApHxS29R-0TU8/edit#gid=0)
 ### Miscellaneous
 * [Preparation strategy from leetcode (important questions)](https://leetcode.com/discuss/general-discussion/844616/preparation-strategy-from-leetcode-important-questions)
