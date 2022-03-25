@@ -81,4 +81,8 @@ Recommended books for System Design:
 * [System Design Interview – An insider's guide by Alex Xu -Volume 2](https://www.amazon.com/System-Design-Interview-Insiders-Guide/dp/1736049119/ref=sr_1_1?crid=2LYTGYHULVFO&keywords=System+Design&qid=1648244249&sprefix=system+design%2Caps%2C224&sr=8-1)
 
 ### Miscellaneous
-* [Preparation strategy from leetcode (important questions)](https://leetcode.com/discuss/general-discussion/844616/preparation-strategy-from-leetcode-important-questions)
+* [Engineering-Blogs](https://github.com/kilimchoi/engineering-blogs)
+* [The Senior Engineer Jobsearch](https://www.jobsearch.dev/)
+* [Tech-Career-Growth-Learning-Resources-And-Roadmaps](https://github.com/Gear61/Tech-Career-Growth-Learning-Resources-And-Roadmaps#resources-5)
+* [Software-Project-Ideas](https://github.com/Gear61/Software-Project-Ideas)
+* [Introduction to Big Data](https://github.com/haifengl/bigdata)
