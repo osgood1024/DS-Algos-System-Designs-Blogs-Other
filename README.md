@@ -78,7 +78,7 @@
 Recommended books for System Design:
 * [Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems](https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/B08VL1BLHB/ref=sr_1_17?crid=2LYTGYHULVFO&keywords=System+Design&qid=1648244049&sprefix=system+design%2Caps%2C224&sr=8-17)
 * [System Design Interview – An insider's guide by Alex Xu -Volume 1](https://www.amazon.com/System-Design-Interview-insiders-Second/dp/B08CMF2CQF/ref=sr_1_4?crid=2LYTGYHULVFO&keywords=System+Design&qid=1648244249&sprefix=system+design%2Caps%2C224&sr=8-4)
-* [System Design Interview – An insider's guide by Alex Xu -Volume 1](https://www.amazon.com/System-Design-Interview-Insiders-Guide/dp/1736049119/ref=sr_1_1?crid=2LYTGYHULVFO&keywords=System+Design&qid=1648244249&sprefix=system+design%2Caps%2C224&sr=8-1)
+* [System Design Interview – An insider's guide by Alex Xu -Volume 2](https://www.amazon.com/System-Design-Interview-Insiders-Guide/dp/1736049119/ref=sr_1_1?crid=2LYTGYHULVFO&keywords=System+Design&qid=1648244249&sprefix=system+design%2Caps%2C224&sr=8-1)
 
 ### Miscellaneous
 * [Preparation strategy from leetcode (important questions)](https://leetcode.com/discuss/general-discussion/844616/preparation-strategy-from-leetcode-important-questions)
